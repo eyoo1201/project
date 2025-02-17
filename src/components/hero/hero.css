@@ -1,0 +1,54 @@
+
+.hero-wrapper
+{
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #333333, #4B5320, #304f2f, #172713);
+
+}
+
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-text-container {
+  text-align: left;
+  color: white;
+  padding-right: 100px;
+}
+
+.hero-image-container {
+  width: 500px;
+  height: 500px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.hire-me-button {
+  background-color: rgb(66, 54, 20);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.hero-button-container {
+  padding-top: 50px;
+}
