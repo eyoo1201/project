@@ -1,6 +1,5 @@
 // Hero.js
 import React from "react";
-import Navbar from "../navbar/navbar";
 import "./hero.css";
 
 const Hero = () => {
