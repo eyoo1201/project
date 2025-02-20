@@ -1,0 +1,94 @@
+
+/* In hero.css or any global CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.hero-wrapper
+{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: #000000;
+
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-text-container {
+  text-align: left;
+  color: white;
+  
+}
+
+.hero-image-container {
+  width: 50%;
+  height: 100%;
+}
+
+.hero-image {
+  width: 80%;
+  height: 100%;
+  
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: 'Poppins';
+  margin: 0; 
+  line-height: 1.2; 
+  
+}
+h3{
+  font-family: 'Poppins';
+  font-weight: 200;
+}
+.hire-me-button {
+  background-color: #000000;
+  color: beige;
+  padding: 5px 20px;
+  border: beige 1px solid;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 1px;
+}
+.hero-button-container {
+  padding-top: 100px;
+  
+}
+.navbar {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10; /* Make sure it's above other elements */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 5px;
+  
+}
+
+.navbar li {
+  font-size: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight:bold;
+  transition: color 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar a:hover {
+  color: #f5f5dc; /* Change color on hover */
+}
